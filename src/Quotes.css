@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background:aquamarine ;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+
+.box-container {
+    border: 4px solid black;
+    border-radius: 16px;
+    background: #fff;
+    width: 50rem;
+    margin-right: 2rem;
+    margin-top: 14rem;
+}
+
+#quote{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 1.2rem;
+}
+
+#author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+
+#button-box {
+    display: flex;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+}
+
+button{
+    background: rgba(32, 86, 82, 0.83);
+    border: none;
+    color: white;
+    padding: .7rem 1rem;
+    font-size: .9rem;
+    font-weight: bold;
+    border-radius: 0.7rem;
+    margin-left: 19rem;
+    margin-bottom: 1rem;
+    outline: none;
+    cursor: pointer;
+}
